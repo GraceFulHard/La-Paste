@@ -1,7 +1,26 @@
 * {
     background-color: #fae7ea;
 }
-/*comentar*/
+#cookie-policy {
+    border: black solid 3px;
+    margin: auto;
+    width: 55%; 
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+#politica-de-cookies {
+    font-size: medium;
+}
+
 .carousel-caption {
-    color: #c8374d;
+    ;
+}
+.container-fluid {
+    background-color: ;
+}
+.nav-item .navbar-brand { 
+    background-color: #b54a63;
+        background-color:;
 }
