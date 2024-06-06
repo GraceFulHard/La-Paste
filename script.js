@@ -13,7 +13,13 @@
 //   document.body.innerHTML = ''; // Bloquea el acceso
 //}
 
-
+const URL="https://api.thecatapi.com/v1/images/search"
+fetch(URL)
+	.then(res => res.json())
+	.then(data => {
+		const img = document.querySelector('img')
+		img.src = data[0].url;
+	} )
                 
 
 const formulario = document.getElementById('formulario');
