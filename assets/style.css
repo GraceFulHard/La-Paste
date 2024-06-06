@@ -2,17 +2,13 @@
     box-sizing: border-box;
 }
 
-.banner {
-    background-color: #F66060;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
     width: 90%;
     margin: auto;
     padding: 40px;
@@ -149,8 +145,10 @@ main {
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
     .formulario {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
+
+
 
     .formulario__grupo-terminos,
     .formulario__mensaje,
@@ -186,8 +184,14 @@ main {
     font-size: 12px;
 }
 
-@media screen and (max-width: 800px) {
-    .cards {
-       grid-auto-flow: column; 
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        grid-template-columns: 1fr;
     }
 }
