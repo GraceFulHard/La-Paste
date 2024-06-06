@@ -1,0 +1,28 @@
+* {
+    background-color: #fae7ea;
+}
+
+.cookie-policy {
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: auto;
+    max-width: 55%;
+}
+
+.politica-de-cookies {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    max-width: 800;
+    
+}
+.mas_info {
+    color: #c8374d;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+       grid-auto-flow: column; 
+    }
+}
